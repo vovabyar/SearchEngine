@@ -25,6 +25,7 @@ Trie is an excellent choice for autocomplete and search functionality due to its
 - Space Complexity: O(n*m) - n is the number of strings, m is the average length of strings. This complexity arises because for each letter in each inserted string, a Trie node is created. As the number of strings and their lengths increase, the space complexity also increases.
 
 ## Sample
+```
 c++
 #include "trie.hpp"
 
@@ -58,13 +59,14 @@ int main()
     
     std::cout << "All tests passed." << std::endl;
 }
-
+```
 ## Video Search Integration
 I've integrated my Trie-based Search Engine with a JSON file, videos.json, which contains information about videos. 
 Video Manager Class
 
 The VideosManager class handles the integration of video data and search functionality. It includes methods to search for similar video titles using Trie and return the results in JSON format.
 ### Sample Usage
+```
 c++
 int main() {
     VideosManager manager;
@@ -92,7 +94,7 @@ int main() {
     */
     return 0;
 }
-
+```
 ## TODO: 
 
 

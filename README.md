@@ -19,9 +19,9 @@ Trie is an excellent choice for autocomplete and search functionality due to its
 - .size() returns number of elements in trie.
 
 ## Complexities
-- Insertion (Insert): O(m) - m is the length of the string. This operation takes time proportional to the length of the inserted string.
-- Deletion (Delete): O(m) - m is the length of the string. Similar to insertion, the deletion operation also takes time proportional to the length of the deleted string.
-- Search (Search): O(m) - m is the length of the string. Just like insertion and deletion, the search operation requires time proportional to the length of the searched string.
+- Insert: O(m) - m is the length of the string. This operation takes time proportional to the length of the inserted string.
+- Delete: O(m) - m is the length of the string. Similar to insertion, the deletion operation also takes time proportional to the length of the deleted string.
+- Search: O(m) - m is the length of the string. Just like insertion and deletion, the search operation requires time proportional to the length of the searched string.
 - Space Complexity: O(n*m) - n is the number of strings, m is the average length of strings. This complexity arises because for each letter in each inserted string, a Trie node is created. As the number of strings and their lengths increase, the space complexity also increases.
 
 ## Sample
